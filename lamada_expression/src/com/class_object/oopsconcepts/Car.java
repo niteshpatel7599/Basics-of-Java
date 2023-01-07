@@ -1,0 +1,12 @@
+package com.class_object.oopsconcepts;
+
+public class Car {
+
+	String color ="White";
+	String make ="Honda";
+	String type = "SUV";
+	
+	public void displayDetails() {
+		System.out.println("I have a "+ make +" " + type + " of "+ color + "color");
+	}
+}
